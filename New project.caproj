@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1fi1olllbglu6</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1024</width>
+        <height>768</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TiledBackground" sid="888764373800044">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="MainCollision" sid="717767256920292">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="551115524500122">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="976846825679560" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ground" sid="588695040563311">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="239707985860974">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_HalfSquare.png" />
+        </object-type>
+        <object-type name="Wall" sid="655728100130329">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="783645176369937">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="833490926239151" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="616994109984484">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\enfeites\nuvem.png" />
+        </object-type>
+        <object-type name="TiledBackground3" sid="989292322645005">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\enfeites\green trees.png" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="164648712054206">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\enfeites\grama.png" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="556933803402904">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\enfeites\cogumelo.png" />
+        </object-type>
+        <object-type name="Sprite" sid="540634550989052">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="406217221900040" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\enfeites\pedra.png">
+                        <collision-poly>
+                            <point x="0.442857" y="0.442857" />
+                            <point x="0.5" y="0.471429" />
+                            <point x="0.528571" y="0.471429" />
+                            <point x="0.642857" y="0.5" />
+                            <point x="0.942857" y="0.942857" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0714286" y="0.928571" />
+                            <point x="0.257143" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground6" sid="630938427380536">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="MainCharacter" sid="283070523693160">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="238157220540738">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="796830924917368">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="648721093905932" speed="5">
+                    <frame duration="1" hotspotX="0.502347" hotspotY="1" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\alien_green\idle\green__0000_idle_1.png">
+                        <collision-poly>
+                            <point x="0.267606" y="0.133178" />
+                            <point x="0.497653" y="0.0116822" />
+                            <point x="0.953052" y="0.0233645" />
+                            <point x="0.769953" y="0.5" />
+                            <point x="0.746479" y="0.873832" />
+                            <point x="0.497653" y="0.859813" />
+                            <point x="0.201878" y="0.899533" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bloc" sid="255576355955342">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="620631511575347">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\ZigzagForest_SlopeLeft.png" />
+        </object-type>
+        <object-type name="TiledBackground7" sid="126829082747354">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground8" sid="892166646814863">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_Half_Round.png" />
+        </object-type>
+        <object-type name="Sprite2" sid="215618680270831">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="887690373488258" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_Half_Round.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="109762392234531">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="555740779122403">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="712160470559876" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_Half_2RoundLeft.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="415735385288703">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="314855243920512">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212386164760080" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_HalfSquare.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="563786040940197">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="578997133746786" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="367187553600544">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="993489273281528">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="874943826211508" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_Half_2RoundRight.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="464750565365047">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="142694366732754">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977351195723175" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_SlopeLeft.png">
+                        <collision-poly>
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.5" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="191583077999099">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="207229679257214">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="411782349463189" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_SlopeCorner_Left.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="446699077577790">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="355280289105888">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="112089606998271" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_MudSquare.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="677404142628937">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="759652973931642">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529575679235511" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_Square.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="410775412214445">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="772178267220853" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_MudSquare.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="450430275709180">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="394283816213866">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="767139443240399" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_UpRoundRight.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="467607559439606">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="420038911324665">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141664244987744" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_SlopeRight.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.515625" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="514246025609006">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="899799884224825" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="579678483106107">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="746648590366574">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="325195737512612" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\Tiles\WaveForest_SlopeCorner_Right.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlockerMad" sid="196318437123621">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="598114054638304">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="477737584266037" speed="5">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.509804" original-source="C:\Users\USUARIO\Documents\5º ADS\Sprites Construct\enemy\blockermad.png">
+                        <collision-poly>
+                            <point x="0.0392157" y="0.0392157" />
+                            <point x="0.490196" y="0" />
+                            <point x="0.941176" y="0.0588235" />
+                            <point x="1" y="0.490196" />
+                            <point x="0.941176" y="0.941176" />
+                            <point x="0.490196" y="1" />
+                            <point x="0.0588235" y="0.941176" />
+                            <point x="0" y="0.490196" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Stage 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
